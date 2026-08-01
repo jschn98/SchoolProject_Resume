@@ -82,3 +82,8 @@ th {
 #Fifth {
     background-color: rgb(255, 247, 0);
 }
+#cover {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
