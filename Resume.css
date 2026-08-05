@@ -73,13 +73,13 @@ li {
 th {
     color:darkblue;
 }
-#First {
+.First {
     background-color: rgb(255, 247, 0);
 }
-#Third {
+.Third {
     background-color: rgb(255, 247, 0);
 }
-#Fifth {
+.Fifth {
     background-color: rgb(255, 247, 0);
 }
 #cover {
@@ -88,11 +88,17 @@ th {
     padding: 20px;
 }
 .highlight {
-    color: pink;
+    color: rgb(255, 0, 43);
     font-weight: bold;
 }
 #name {
     font-family: 'Brush Script MT', cursive;
     font-size: 24px;
     margin-top: 10px;
+}
+.content{
+    margin: 0 auto;
+    max-width: fit-content;
+    padding: 15px;
+
 }
