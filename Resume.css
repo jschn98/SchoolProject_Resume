@@ -106,25 +106,22 @@ th {
 }
 
 .contact {
-    display: grid;
-    grid-template-columns: 140px 1fr 140px;
-    align-items: start;
     width: 100%;
     padding: 20px;
     text-align: center;
+    min-height: 170px;
 }
 
 .profile-picture {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    object-fit: cover;
-    border: 1px dotted green;
-    grid-column: 1;
+    border: 1px dotted rgb(0, 0, 0);
+    float: left;
+    margin-right: 20px;
 }
 
 .contact-info {
-    grid-column: 2;
     text-align: center;
 }
 
