@@ -112,7 +112,7 @@ th {
     min-height: 170px;
 }
 
-.profile-picture {
+header .profile-picture {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -127,4 +127,11 @@ th {
 
 .contact-info h1 {
     margin-top: 0;
+}
+.Title-career-goals {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    clear: both;
 }
