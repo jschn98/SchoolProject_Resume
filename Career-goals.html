@@ -36,6 +36,7 @@
     </div>
     <div class="goal">
         <h3>Professional Goals</h3>
+        </div>
 
     <p>My professional goals are to continuously improve my skills, stay updated with the latest technologies, and contribute to meaningful projects that make a positive impact.</p>
 </section>
@@ -53,79 +54,75 @@
 </audio>
 </section>
 <main>
-    
+
     <section>
-    <h2>Contact Form</h2>
+        <h2>Contact Form</h2>
 
-    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
-        <!-- required form fields go here -->
-         <section>
-    <h2>Contact Me</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
 
-    <form action="https://wp.zybooks.com/form-viewer.php">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
 
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName">
+            <br><br>
 
-        <br><br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
 
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName">
+            <br><br>
 
-        <br><br>
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company">
 
-        <label for="company">Company Name:</label>
-        <input type="text" id="company" name="company">
+            <br><br>
 
-        <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
 
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email">
+            <br><br>
 
-        <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
 
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone">
+            <br><br>
 
-        <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+            <br><br>
 
-        <br><br>
+            <p>Best Contact Time:</p>
 
-        <p>Best Contact Time:</p>
+            <input type="radio" id="am" name="contactTime" value="a.m.">
+            <label for="am">a.m.</label>
 
-        <input type="radio" id="am" name="contactTime" value="a.m.">
-        <label for="am">a.m.</label>
+            <input type="radio" id="pm" name="contactTime" value="p.m.">
+            <label for="pm">p.m.</label>
 
-        <input type="radio" id="pm" name="contactTime" value="p.m.">
-        <label for="pm">p.m.</label>
+            <input type="radio" id="anytime" name="contactTime" value="anytime">
+            <label for="anytime">anytime</label>
 
-        <input type="radio" id="anytime" name="contactTime" value="anytime">
-        <label for="anytime">anytime</label>
+            <br><br>
 
-        <br><br>
+            <label for="contactMethod">Preferred Contact Method:</label>
 
-        <label for="contactMethod">Preferred Contact Method:</label>
+            <select id="contactMethod" name="contactMethod">
+                <option value="phone">phone</option>
+                <option value="email">email</option>
+                <option value="text">text</option>
+            </select>
 
-        <select id="contactMethod" name="contactMethod">
-            <option value="phone">phone</option>
-            <option value="email">email</option>
-            <option value="text">text</option>
-        </select>
+            <br><br>
 
-        <br><br>
+            <input type="submit" value="Submit">
 
-        <input type="submit" value="Submit">
+        </form>
 
-    </form>
-</section>
-    </form>
-</section>
+    </section>
+
 </main>
-</body>
 <footer>
     <p>&copy; 2026 Jacob Schneider. All rights reserved.</p>
 </footer>
+</body>
+
 </html>
